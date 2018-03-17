@@ -41,12 +41,12 @@
 	
 	<!-- 类型别名 -->
 	<typeAliases>
-		<typeAlias alias="Page" type="com.thinkgem.javamg.common.persistence.Page" /><!--分页  -->
+		<typeAlias alias="Page" type="com.rocky.javamg.common.persistence.Page" /><!--分页  -->
 	</typeAliases>
 	
 	<!-- 插件配置 -->
 	<plugins>
-		<plugin interceptor="com.thinkgem.javamg.common.persistence.interceptor.PaginationInterceptor" />
+		<plugin interceptor="com.rocky.javamg.common.persistence.interceptor.PaginationInterceptor" />
     </plugins>
 	
 </configuration>
